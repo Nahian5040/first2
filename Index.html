@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML DOCUMENT</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            
+        }
+        body{
+            font-family: Arial;
+            padding: 10px;
+            background:#f1f1f1;
+            overflow:scroll;
+            
+        }
+    
+        .header{
+            padding: 30px;
+            text-align: center;
+            background:white;
+        }
+        .header h1{
+            font-size: 50px;
+        }
+        .topnav a{
+            float: left;
+            display: block;
+            color:black;
+            background-color:lightblue;
+            text-align: center;
+            padding: 20px 22px;
+            text-decoration:none;
+            margin-top: 20px;
+            
+            
+            
+        }
+        .topnav a:hover{
+            background-color:black;
+            color:white;
+        }
+        .leftcolumn{
+            float: left;
+            width:75%;
+        }
+        .rightcolumn{
+            float: left;
+            width:25%;
+            padding-left: 20px;
+        }
+        .fakeimg{
+            background-color: #aaa;
+            width:100%;
+            padding:20px;
+        }
+        .card{
+            background-color: white;
+            padding:20px;
+            margin-top: 20px;
+          
+            
+        }
+        .row:after{
+            content:"";
+            display: table;
+            clear:both;
+        }
+        .footer{
+            padding:20px;
+            text-align: center;
+            background:#ddd;
+            margin-top:20px;
+            width: 100%;
+        }
+        @media screen and ( max-width:800px){
+            .leftcolumn,.rightcolumn{
+                width:100%;
+                padding:0;
+            }
+        }
+        @media screen and ( max-width:600px){
+            .topnav a{
+                float:none;
+                width:100%;
+                margin-top: 0px;
+                
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>My Website</h1>
+        <p>Resize the broser window to see the effect</p>
+    </div>
+    <div class="topnav">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+        <a href="#">Link 4</a>
+        <a href="#">Link 5</a>
+    </div>
+    <div class="row">
+        <div class="leftcolumn">
+            <div class="card">
+                <h2>TITLE HEADING</h2>
+                <h5>Title description,Dec 7,2017</h5>
+                <div class="fakeimg" style="height: 200px;">Image</div>
+                <p>Some text</p>
+                <p>This is the description of my website.It is a very popular website
+                    for designing the app. Everyone in the world use this website for creatint 
+                    their app in a simple way.
+                </p>
+            </div>
+    
+            <div class="card">
+                <h2>TITLE HEADING</h2>
+                <h5>Some text</h5>
+                <div class="fakeimg" style="height: 200px;">Image</div>
+                <p>Some text</p>
+                <p>This is the description of my website.It is a very popular website
+                    for designing the app. Everyone in the world use this website for creatint 
+                    their app in a simple way.</p>
+            </div>
+       </div>
+            <div class="rightcolumn">
+                <div class="card">
+                    <h2>About me</h2>
+                    <div class="fakeimg" style="height: 200px;">Image</div>
+                    <p>Some text about me in this card with a very nice description</p>
+                </div>
+                    <div class="card">
+                        <h3>Popular Post</h3>
+                        <div class="fakeimg"><p<>Image</p></div>
+                        <div class="fakeimg"><p>Image</p></div>
+                        <div class="fakeimg"><p>Image</p></div>
+                    </div>
+                
+                    <div class="card">
+                        <h3>Follow me</h3>
+                        <p>Some text</p>
+                        <p>www.facebook.com</p>
+                        <p>www.instagram.com</p>
+                        <p>www.snapchat.com</p>
+                        <p>www.wechat.com</p>
+                        <p>www.youtube.com</p>
+                    </div>
+                    </div>
+                    </div>
+             
+            </div>
+            <div class="footer">
+                <h2>Footer</h2>
+            </div>
+    
+            
+ 
+
+
+ 
+
+
+    
+</body>
+</html>
